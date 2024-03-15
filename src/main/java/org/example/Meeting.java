@@ -5,7 +5,7 @@ public class Meeting extends Task {
     protected String project;
     protected String start;
 
-    public Meeting(int id, String topic, String project, String start){
+    public Meeting(int id, String topic, String project, String start) {
         super(id);
         this.topic = topic;
         this.project = project;
